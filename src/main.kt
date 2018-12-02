@@ -12,4 +12,11 @@ fun main(args: Array<String>) {
 
     //Using function in class
     p.display()
+
+    //Using lambda
+    p.displayWithLambda(::printName)
+}
+
+fun printName(name: String) {
+    println(name)
 }
