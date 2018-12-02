@@ -9,4 +9,7 @@ fun main(args: Array<String>) {
     //Change Name
     p.name = "Ahmad"
     println("Modified Name is ${p.name}")
+
+    //Using function in class
+    p.display()
 }
