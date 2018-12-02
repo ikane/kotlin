@@ -1,8 +1,12 @@
 fun main(args: Array<String>) {
     println("Hello, World")
 
-    var ibou = Person()
-    ibou.name = "Ibou"
+    var p = Person("Ibou")
+    //p.name = "Ibou"
 
-    println("Name is ${ibou.name}")
+    println("Name is ${p.name}")
+
+    //Change Name
+    p.name = "Ahmad"
+    println("Modified Name is ${p.name}")
 }
